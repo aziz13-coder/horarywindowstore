@@ -1,6 +1,6 @@
 # Horary App Docker Instructions
 
-This repository contains the backend and frontend for the Horary astrology application. A `Dockerfile` is provided to build a container that bundles both parts and serves the API via Gunicorn.
+This repository contains the backend and frontend for the Horary astrology application. The project structure was simplified so the backend now lives in the `backend/` directory and the frontend in `frontend/`. A `Dockerfile` is provided to build a container that bundles both parts and serves the API via Gunicorn.
 
 ## Build the Image
 

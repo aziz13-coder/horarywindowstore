@@ -16,8 +16,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 WORKDIR /app
 
 # Copy backend files
-COPY horary77-main/horary4/backend ./backend
-COPY horary77-main/horary4/wsgi.py ./wsgi.py
+COPY backend ./backend
+COPY wsgi.py ./wsgi.py
 
 # Install Python dependencies
 RUN pip install --no-cache-dir --upgrade pip
