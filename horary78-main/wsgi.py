@@ -6,7 +6,7 @@ import os
 import sys
 
 # Add the backend directory to Python path
-backend_path = os.path.join(os.path.dirname(__file__), 'horary77-main', 'horary4', 'backend')
+backend_path = os.path.join(os.path.dirname(__file__), 'backend')
 sys.path.insert(0, backend_path)
 
 try:
