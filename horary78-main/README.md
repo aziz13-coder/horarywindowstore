@@ -19,3 +19,16 @@ docker run -p 5000:5000 horary-app
 ```
 
 The API will be available on `http://localhost:5000`.
+
+## Windows Quick Start
+
+If you prefer running the backend directly on Windows without Docker, use the
+`start.bat` script:
+
+```bat
+start.bat
+```
+
+The script creates a local Python virtual environment, installs dependencies from
+`backend\requirements.txt`, and starts the server with
+`waitress-serve --port %PORT% wsgi:application`.
