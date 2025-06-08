@@ -1,0 +1,19 @@
+# Ignore Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+/build/
+/dist/
+
+# Ignore Node artifacts
+node_modules/
+dist/
+
+# PyInstaller outputs
+*.spec
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
